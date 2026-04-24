@@ -1,0 +1,1 @@
+package bank.core; public class BankAccount extends FinancialEntity { public BankAccount(String id, double amount){ super(id, amount); } public void deposit(double value){ amount += value; System.out.println("BankAccount.deposit(): " + value); } public String toString(){ return "BankAccount{id='" + id + "', balance=" + amount + "}"; } }

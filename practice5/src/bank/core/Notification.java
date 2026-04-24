@@ -1,0 +1,1 @@
+package bank.core; public class Notification extends BaseClientEntity { private String message; public Notification(String title, String message){ super(title); this.message=message; } public void send(){ System.out.println("Notification.send(): " + message); } public String toString(){ return "Notification{title='" + title + "', message='" + message + "'}"; } }

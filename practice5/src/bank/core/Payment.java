@@ -1,0 +1,1 @@
+package bank.core; public class Payment extends FinancialEntity { public Payment(String id, double amount){ super(id, amount); } public void confirmPayment(){ System.out.println("Payment.confirmPayment(): " + id); } public String toString(){ return "Payment{id='" + id + "', amount=" + amount + "}"; } }

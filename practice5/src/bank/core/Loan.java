@@ -1,0 +1,1 @@
+package bank.core; public class Loan extends FinancialEntity { public Loan(String id, double amount){ super(id, amount); } public void payPart(double value){ amount -= value; System.out.println("Loan.payPart(): " + value); } public String toString(){ return "Loan{id='" + id + "', amount=" + amount + "}"; } }

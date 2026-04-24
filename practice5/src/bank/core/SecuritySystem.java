@@ -1,0 +1,1 @@
+package bank.core; public class SecuritySystem extends BaseClientEntity { private boolean locked; public SecuritySystem(String title) { super(title); locked=false; } public void lockSystem(){ locked=true; System.out.println("SecuritySystem.lockSystem()"); } public String toString(){ return "SecuritySystem{title='" + title + "', locked=" + locked + "}"; } }
